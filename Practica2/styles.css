@@ -1,0 +1,82 @@
+.header-view-port {
+    width: 100vw;
+    height: 20vh;
+    background-color: chartreuse;
+    margin-left: -6px;
+}
+
+.box-div-nav {
+    width: 96vw;
+    height: 80px;
+    background-color: darkgreen;
+    margin: 15px;
+    margin-top: 7px;
+}
+
+.asideleft-box {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgb(233, 139, 15);
+    margin-left: -6px;
+}
+
+.asideright-box {
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(233, 139, 15);
+    margin-left: 1130px;
+    margin-right: 500px;
+    margin-top: -298px;
+}
+
+.main-box{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(233, 15, 15);
+    margin-left: 400px;
+    margin-right: 500px;
+    margin-top: -330px;
+
+}
+
+.art1-box{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    border-color: rgb(211, 10, 10);
+    border: 5px;
+    margin: 10px;
+    margin-left: 90px;
+    
+}
+
+.art2-box{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    border-color: rgb(211, 10, 10);
+    border: 5px;
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.art3-box{
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    border-color: rgb(211, 10, 10);
+    border: 5px;
+    margin: 20px;
+    margin-left: 90px;
+}
+
+.footer-box {
+    width: 100vw;
+    height: 20vh;
+    background-color: blueviolet;
+    margin-left: -6px;
+}
