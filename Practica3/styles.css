@@ -1,0 +1,25 @@
+
+.superior > img {
+    width: 100vw;
+    height: 300px;
+}
+
+.caja-conten {
+    width: 370px;
+    height: 485px;
+    background-color: rgb(235, 26, 26);
+    margin-left: 490px;
+    margin-top: -100px;
+    border-radius: 15px;
+    border-color: rgb(245, 10, 10);
+}
+
+.imagen-chica > img {
+    width: 370px;
+    height: 175px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 490px;
+    margin-top: -5000px;
+}
+
