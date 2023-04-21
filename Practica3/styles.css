@@ -1,9 +1,11 @@
-
-.superior > img {
-    width: 100vw;
-    height: 300px;
+.imagen-chica > img {
+    width: 370px;
+    height: 175px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-left: 490px;
+    margin-top: -5000px;
 }
-
 .caja-conten {
     width: 370px;
     height: 485px;
@@ -14,12 +16,13 @@
     border-color: rgb(245, 10, 10);
 }
 
-.imagen-chica > img {
-    width: 370px;
-    height: 175px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    margin-left: 490px;
-    margin-top: -5000px;
+.superior > #superio-imagen {
+    width: 100vw;
+    height: 300px;
 }
 
+.inferior > #infeior-imagen {
+    width: 100vw;
+    line-height-step: 100px;
+    transform: rotate(-900deg);
+}
