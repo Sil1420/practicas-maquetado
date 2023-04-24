@@ -1,4 +1,3 @@
-
 /*.inferior > #infeior-imagen {
     width: 100vw;
     transform: rotate(900deg) translateY(305px);
@@ -15,45 +14,104 @@ body {
     url("pattern-background-mobile.svg");
     background-repeat: no-repeat;
 }
-.caja-conten {
+.box-content {
     width: 365px;
-    height: 485px;
-    background-color: rgb(234, 234, 238);
+    height: 550px;
+    background-color: rgb(243, 243, 243);
     margin-left: 490px;
     margin-top: 70px;
     border-radius: 15px;
+    border: 100px;
+    border-color: black;
 
 }
-.caja-conten > #img-chica {
+.box-content > #img-chica {
     width: 365px;
     height: 175px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.caja-conten > #txt1 {
+.box-content > #txt1 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     text-align: center;
+    font-size: 25px;
     color: rgb(7, 7, 107);
+    margin-bottom: 10px;
 }
 
-.caja-conten > #txt2 {
+.box-content > #txt2 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
     text-align: center;
     color: darkgray;
-    padding: 10px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    
 }
 
-.caja-subconten {
+.box-content > .box-subcontent {
     width: 305px;
     height: 75px;
-    background-color: rgb(40, 40, 99);
-    margin-left: 300px;
-    margin-top: 70px;
+    background-color: rgba(230, 234, 235, 0.918);
+    margin-left: 28px;
     border-radius: 15px;
 
 }
-.caja-conten > .caja-subconten > #img-music {
-
+.box-content > .box-subcontent > #img-music {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 12px;
+    
 }
+
+.box-content > .box-subcontent > #txt3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 88px;
+    font-size: 14px;
+    margin-top: -44px;
+    color: rgb(20, 20, 69);
+
+}    
+.box-content > .box-subcontent > #txt4 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 88px;
+    font-size: 14px;
+    color:rgba(129, 130, 132, 0.778);
+    margin-top: -10px;
+    
+}
+
+.box-content > .box-subcontent > #txt5 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 217px;
+    font-size: 14px;
+    color: rgb(92, 43, 227);
+    margin-top: -45px;
+}
+
+.box-content > #button {
+    width: 305px;
+    height: 35px;
+    margin-left: 28px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(70, 22, 203);
+    border-style: none;
+    color: white;
+    box-shadow: 50px 0px rgba(0.5,0,0,0);
+}
+
+.box-content > #txt6 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 88px;
+    font-size: 12px;
+    color:rgba(72, 76, 79, 0.652);
+    margin-top: 30px;
+    margin-left: 140px;
+
+} 
