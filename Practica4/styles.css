@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(./img/bg-desktop.svg);
+    background-color: blueviolet;
+}
+
+.header__logo {
+  
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.logos{
+    width: 230px;
+}
+
+.containert__one {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.img__left {
+
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.txt__right {
+
+    color: white;
+   
+}
+
+.button__right {
+    position: relative;
+    padding-top: 350px;
+
+
+}
+
+.txt__right > .title__one {
+
+    padding-left: 40px;
+    padding-top: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.txt__right > .title__two {
+
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.txt__right > .title__three {
+
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+ 
+}
+
+.button  {
+    width: 130px;
+    height: 35px;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(135, 135, 139);
+    border-radius: 30px;
+    margin-left: 40PX;
+    margin-top: 40px;
+    border: none;
+
+}
+
+
+.containert__two {
+    display: flex;
+    padding-left: 1200px;
+
+
+}
+
+.icons__networks {
+    display: flex;
+    flex-direction: row;
+    padding-left: 430px;
+    padding-top: 130px;
+    display: block;
+}
+
+.icons__pize {
+    width: 30px;
+    height: 30px;
+
+}
+
+/* *** MEDIA QUERYS RESPONSIVO *** */
+
+@media only screen and (max-width:768px){
+    .containert__one {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .icons__networks {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+   
+ }
+ 
+ /* Desde un telefeno de "media gama" */
+ 
+ @media only screen and (min-width: 769px) {
+     .menu__list > .menu__item {
+         font-size: 22px;
+     }  
+     .burguer__button {
+         display: none;
+     }
+     .main__title {
+         font-size: 25px;
+     }
+ }
+ 
